@@ -1,0 +1,94 @@
+type: picture-elements
+elements:
+  - type: image
+    style:
+      left: 51%
+      top: 39%
+      width: 10%
+    entity: binary_sensor.potwierdzenie_pracy
+    state_image:
+      "on": /local/reku_img/Reku_LOGO_ON.png
+      "off": /local/reku_img/Reku_LOGO_OFF.png
+  - type: image
+    style:
+      left: 23.7%
+      top: 11%
+      width: 5%
+    entity: sensor.nagrzewnica_przeciwzamrozeniowa
+    state_image:
+      "0": /local/reku_img/Reku_FPX_OFF.png
+      "1": /local/reku_img/Reku_FPX_ON.png
+  - type: state-label
+    style:
+      left: 11%
+      top: 9.5%
+    entity: sensor.temperatura_czerpnia
+  - type: state-label
+    style:
+      left: 92%
+      top: 9.5%
+    entity: sensor.temperatura_wywiew
+  - type: state-label
+    style:
+      left: 92%
+      top: 51%
+    entity: sensor.temperatura_nawiew
+  - type: state-label
+    style:
+      left: 11%
+      top: 51%
+    entity: sensor.temperatura_za_fpx
+  - type: state-label
+    style:
+      left: 31%
+      top: 28%
+    entity: sensor.strumien_nawiew
+  - type: state-label
+    style:
+      left: 72%
+      top: 28%
+    entity: sensor.strumien_wywiew
+  - type: image
+    style:
+      left: 68%
+      top: 55%
+      width: 7%
+    entity: sensor.nagrzewnica_wtorna
+    state_image:
+      "0": /local/reku_img/Reku_ERV_OFF.png
+      "1": /local/reku_img/Reku_ERV_ON.png
+  - type: state-label
+    style:
+      left: 15%
+      top: 22%
+    entity: sensor.zuzycie_filtr_nawiew
+  - type: state-label
+    style:
+      left: 88%
+      top: 22%
+    entity: sensor.zuzycie_filtr_wywiew
+  - type: state-label
+    style:
+      left: 30.5%
+      top: 34%
+    entity: sensor.intensywnosc_nawiew
+  - type: state-label
+    style:
+      left: 72.5%
+      top: 34%
+    entity: sensor.intensywnosc_wywiew
+  - type: state-label
+    entity: sensor.shellypmminig3_dcda0cb32f70_power
+    style:
+      left: 51.5%
+      top: 15%
+  - type: image
+    style:
+      left: 39%
+      top: 13%
+      width: 6%
+    state_image:
+      "on": /local/reku_img/Reku_BYPASS_ON.png
+      "off": /local/reku_img/Reku_BYPASS_OFF.png
+    entity: binary_sensor.silownik_bypassu
+image: /local/reku_img/Reku_base_NO_LOGO_long.png
